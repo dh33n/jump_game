@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Jump Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onkeypress="handleKeyPress(event)">
+    <div class="plhold"></div>
+    <div class="game" onclick="jump()">
+      <div id="character"></div>
+      <div id="block" class="my-element"></div>
+      <div class="animate"></div>
+    </div>
+    <div class="instruction">
+      <p>Press <b>SPACE BAR</b>or <b>LEFT CLICK</b> to jump</p>
+    </div>
+    <p>Score: <span id="scoreSpan">0</span></p>
+    <div class="controls">
+      <button id="startBtn">Start</button> <button id="pauseBtn">Pause</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
